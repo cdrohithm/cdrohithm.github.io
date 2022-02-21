@@ -1,0 +1,15 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 10px;
+}
+.contact-container > input {
+  width: 20rem;
+}
+.contact-container > textarea {
+  width: 20rem;
+  resize: none;
+}

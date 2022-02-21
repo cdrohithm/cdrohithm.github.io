@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  // background-color: lightseagreen;
+  justify-content: center;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 60px;
+  align-items: center;
+  // justify-content: center;
+  border: 1px solid black;
+  gap: 10px;
+  // background-color: floralwhite;
+}
+// .home-container h1 {
+// font-size: 30px;
+// }
+.home-container p {
+  font-size: 1.5rem;
+}
+.skills > .css-i4bv87-MuiSvgIcon-root {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
+}
+.react-icon {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 10px;
+  color: inherit;
+}
+.react-icon.rotate {
+  animation: rotation 8s infinite linear;
+}
+.react-icon-small {
+  // height: 5rem;
+  // width: 5rem;
+  // margin-right: 10px;
+  color: inherit;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
