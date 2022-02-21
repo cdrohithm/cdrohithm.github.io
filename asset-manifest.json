@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bc33c5d.css",
-    "main.js": "/static/js/main.23a6c068.js",
-    "static/js/787.a9a25c03.chunk.js": "/static/js/787.a9a25c03.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.5bc33c5d.css.map": "/static/css/main.5bc33c5d.css.map",
-    "main.23a6c068.js.map": "/static/js/main.23a6c068.js.map",
-    "787.a9a25c03.chunk.js.map": "/static/js/787.a9a25c03.chunk.js.map"
+    "main.css": "/cdrohithm.github.io/static/css/main.5bc33c5d.css",
+    "main.js": "/cdrohithm.github.io/static/js/main.a5a54124.js",
+    "static/js/787.a9a25c03.chunk.js": "/cdrohithm.github.io/static/js/787.a9a25c03.chunk.js",
+    "static/media/logo.svg": "/cdrohithm.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cdrohithm.github.io/index.html",
+    "main.5bc33c5d.css.map": "/cdrohithm.github.io/static/css/main.5bc33c5d.css.map",
+    "main.a5a54124.js.map": "/cdrohithm.github.io/static/js/main.a5a54124.js.map",
+    "787.a9a25c03.chunk.js.map": "/cdrohithm.github.io/static/js/787.a9a25c03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bc33c5d.css",
-    "static/js/main.23a6c068.js"
+    "static/js/main.a5a54124.js"
   ]
 }
