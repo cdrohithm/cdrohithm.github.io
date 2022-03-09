@@ -19,7 +19,7 @@ const Body = (props) => {
           <h1>Hi, I am Rohith</h1>
           <p>
             I am an experienced frontend developer, building interactive web
-            applications.
+            applications. I am currently interested in React, JavaScript, SQL.
           </p>
         </div>
       </div>

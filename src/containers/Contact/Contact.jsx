@@ -2,6 +2,9 @@ import React from "react";
 import Input from "../../components/Input/Input";
 import "./Contact.scss";
 const Contact = (props) => {
+  const handleChange = () => {
+      
+  }
   return (
     <div className="contact-container">
       <label for="">Name</label>
