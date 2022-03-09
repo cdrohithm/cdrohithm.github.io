@@ -4,11 +4,9 @@ import Button from "../Button/Button";
 import SearchBox from "../SearchBox/SearchBox";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Header.scss";
-import { FormControlLabel } from "@mui/material";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Switch } from "@material-ui/core";
 import Menu from "../../containers/Menu/Menu";
-import { GrClose } from "react-icons/gr";
 import { AiOutlineClose } from "react-icons/ai";
 const Header = (props) => {
   const [menuVisible, setMenu] = useState(false);
@@ -61,7 +59,7 @@ const Header = (props) => {
       <div className="header">
         <div className="header-left">
           <Link to="/" className="link">
-            Header
+            Rohith
           </Link>
           <Button
             className="header-button"
@@ -71,11 +69,11 @@ const Header = (props) => {
           >
             <LinkedInIcon />
           </Button>
-          <Switch
+          {/* <Switch
             sx={{ m: 1 }}
             checked={checked}
             onChange={handleSwitchChange}
-          />
+          /> */}
           {/* <p>Header</p> */}
         </div>
         <div className="header-right">
@@ -83,7 +81,7 @@ const Header = (props) => {
             <div className="menu-items">
               <Menu />
             </div>
-            <SearchBox />
+            {/* <SearchBox /> */}
           </div>
           <div className="mobile-menu-icon" onClick={() => toggleMenu()}>
             {menuVisible ? (
