@@ -45,9 +45,9 @@ const Skills = () => {
     }
   ]
   const renderSkills = skills => {
-    let divs = [];
+    let skillsDiv = [];
     skills.forEach((skill, idx) => {
-      divs.push(
+      skillsDiv.push(
         <div className="skill">
           <skill.name key={idx} className={skill.className || "react-icon"} />
           <span>{skill.title}</span>
