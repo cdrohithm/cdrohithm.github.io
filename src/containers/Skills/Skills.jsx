@@ -7,7 +7,6 @@ import { AiFillHtml5, AiOutlineConsoleSql } from "react-icons/ai";
 import { FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import "./Skills.scss";
-import { dividerClasses } from "@mui/material";
 const Skills = () => {
   let skills = [
     {
