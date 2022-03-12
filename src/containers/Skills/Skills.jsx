@@ -53,7 +53,7 @@ const Skills = () => {
         </div>
       )
     })
-    return divs;
+    return skillsDiv;
   }
   return (
     <div className="skills-container">
