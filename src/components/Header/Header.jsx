@@ -8,11 +8,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { Switch } from "@material-ui/core";
 import Menu from "../../containers/Menu/Menu";
 import { AiOutlineClose } from "react-icons/ai";
+import { GitHub } from "@mui/icons-material";
 const Header = (props) => {
   const [menuVisible, setMenu] = useState(false);
-  useEffect(() => {
-    window.addEventListener("resize", setVisible);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("resize", setVisible);
+  // }, []);
   const setVisible = () => {
     console.log("width");
     if (window.screen.width <= 820) {
@@ -69,6 +70,14 @@ const Header = (props) => {
           >
             <LinkedInIcon />
           </Button>
+          <Button
+            className="header-button"
+            onClick={() =>
+              window.open("https://www.github.com/cdrohithm/")
+            }
+          >
+            <GitHub />
+          </Button>
           {/* <Switch
             sx={{ m: 1 }}
             checked={checked}
@@ -83,13 +92,13 @@ const Header = (props) => {
             </div>
             {/* <SearchBox /> */}
           </div>
-          <div className="mobile-menu-icon" onClick={() => toggleMenu()}>
+          {/* <div className="mobile-menu-icon" onClick={() => toggleMenu()}>
             {menuVisible ? (
               <AiOutlineClose className="header-button" />
             ) : (
               <GiHamburgerMenu className="header-button" />
             )}
-          </div>
+          </div> */}
         </div>
         <div className="mobile-menu">
           <Menu />
